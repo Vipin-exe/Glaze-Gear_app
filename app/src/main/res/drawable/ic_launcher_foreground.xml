@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Group centered in 108x108 safe zone -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+
+        <!-- Left Heart Wing / Left 'G' -->
+        <path
+            android:fillColor="#96192E"
+            android:pathData="M 52,34
+                              C 46,26 38,23 31,27
+                              C 23,32 21,43 23,52
+                              C 26,63 36,73 52,82
+                              L 52,73
+                              C 40,65 31,57 29,49
+                              C 27,42 29,35 34,33
+                              C 39,31 44,33 47,38
+                              L 47,51
+                              L 33,51
+                              L 33,44
+                              L 40,44
+                              L 40,39
+                              L 28,39
+                              L 28,58
+                              L 52,58
+                              Z" />
+
+        <!-- Right Heart Wing / Right 'G' (mirrored) -->
+        <path
+            android:fillColor="#96192E"
+            android:pathData="M 56,34
+                              C 62,26 70,23 77,27
+                              C 85,32 87,43 85,52
+                              C 82,63 72,73 56,82
+                              L 56,73
+                              C 68,65 77,57 79,49
+                              C 81,42 79,35 74,33
+                              C 69,31 64,33 61,38
+                              L 61,51
+                              L 75,51
+                              L 75,44
+                              L 68,44
+                              L 68,39
+                              L 80,39
+                              L 80,58
+                              L 56,58
+                              Z" />
+
+        <!-- Center vertical dividing slit from gift box down to bottom tip -->
+        <path
+            android:fillColor="#FFF6F6"
+            android:pathData="M 53,58 L 55,58 L 55,83 L 53,83 Z" />
+
+        <!-- Gift Box Container Background (clears space between Gs) -->
+        <path
+            android:fillColor="#FFF6F6"
+            android:pathData="M 44,41
+                              C 42,41 41,42 41,44
+                              L 41,58
+                              C 41,60 42,61 44,61
+                              L 64,61
+                              C 66,61 67,60 67,58
+                              L 67,44
+                              C 67,42 66,41 64,41
+                              Z" />
+
+        <!-- Gift Box Body (Maroon) -->
+        <path
+            android:fillColor="#96192E"
+            android:pathData="M 45,46
+                              L 63,46
+                              L 63,59
+                              L 45,59
+                              Z" />
+
+        <!-- Gift Box White Cross Ribbons -->
+        <path
+            android:fillColor="#FFF6F6"
+            android:pathData="M 53,46 L 55,46 L 55,59 L 53,59 Z
+                              M 45,52 L 63,52 L 63,54 L 45,54 Z" />
+
+        <!-- Ribbon Bow On Top -->
+        <!-- Left Loop -->
+        <path
+            android:strokeColor="#96192E"
+            android:strokeWidth="1.6"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:fillColor="#00000000"
+            android:pathData="M 54,46
+                              C 51,42 47,41 47,43.5
+                              C 47,46 51,46 54,46 Z" />
+
+        <!-- Right Loop -->
+        <path
+            android:strokeColor="#96192E"
+            android:strokeWidth="1.6"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:fillColor="#00000000"
+            android:pathData="M 54,46
+                              C 57,42 61,41 61,43.5
+                              C 61,46 57,46 54,46 Z" />
+
+        <!-- Bow Knot -->
+        <path
+            android:fillColor="#96192E"
+            android:pathData="M 53,45.2 A 1.2,1.2 0 1,0 55,45.2 A 1.2,1.2 0 1,0 53,45.2 Z" />
+    </group>
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "Glaze & Gear",
+  "description": "Full-screen native WebView app for Glaze & Gear (glazeandgear.in)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
